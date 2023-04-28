@@ -3711,7 +3711,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 736px) {
+		/*@media screen and (max-width: 736px) {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
@@ -3731,7 +3731,7 @@ input, select, textarea {
 					display: none;
 				}
 
-		}
+		}*/
 
 	body.is-preload #banner h2 {
 		-moz-transform: scale(0.95);
