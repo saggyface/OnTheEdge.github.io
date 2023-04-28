@@ -2820,7 +2820,24 @@ input, select, textarea {
 		.wrapper.alt {
 			padding: 0;
 		}
-
+/* temp */
+		.wrapper.style6 {
+			background-color: #794A4C;
+		}
+		.wrapper.style7 {
+			background-color: #fdfdfd;
+			opacity: 80%;
+		}
+		.wrapper.style8 {
+			background-color: #9c5f62;
+		}
+		.wrapper.style9 {
+			background-color: #ffffff;
+			border-radius: 2%;
+			box-shadow: rgb(2, 2, 2) 0px 0px 10px;
+			opacity: 90;
+		}
+/* temp */
 		.wrapper.style1 {
 			background-color: #304b48;
 			color: #c8ece9;
@@ -3306,6 +3323,7 @@ input, select, textarea {
 				}
 
 			}
+			
 
 		@media screen and (max-width: 980px) {
 
