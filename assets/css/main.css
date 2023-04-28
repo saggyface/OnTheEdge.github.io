@@ -2985,7 +2985,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			opacity: 90%;
+			
 			background-color: #ffffff;
 			color: #d3d4e4;
 		}
@@ -3149,7 +3149,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
+			background-color: #b44646;
 			color: #4E4852;
 		}
 
@@ -3417,7 +3417,7 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: 7em;
 		}
 
@@ -3715,8 +3715,6 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				
-			
 			}
 
 				#banner h2 {
@@ -3816,6 +3814,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 /* Main */
 
