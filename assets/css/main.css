@@ -2083,6 +2083,7 @@ input, select, textarea {
 
 		.icon.style1 {
 			color: #ffffff;
+			
 		}
 
 		.icon.style2 {
@@ -2709,14 +2710,17 @@ input, select, textarea {
 
 		.spotlight:nth-child(1) {
 			background-color: rgba(0, 0, 0, 0.075);
+			padding: 0px 10px;
 		}
 
 		.spotlight:nth-child(2) {
 			background-color: rgba(0, 0, 0, 0.15);
+			padding: 0px 10px;
 		}
 
 		.spotlight:nth-child(3) {
 			background-color: rgba(0, 0, 0, 0.225);
+			padding: 0px 10px;
 		}
 
 		.spotlight:nth-child(4) {
@@ -2830,6 +2834,8 @@ input, select, textarea {
 		.wrapper.style1 {
 			background-color: #794A4C;
 			color: #c8ece9;
+			margin: 10px;
+			
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2988,6 +2994,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #794A4C;
+			margin: 10px;
 		}
 
 		.wrapper.style3 {
@@ -3155,8 +3162,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #fcd6d8;
-			color: #4E4852;
+			background-color: #ffffff;
+			color: #231a29;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
@@ -3898,6 +3905,7 @@ input, select, textarea {
 /* REVIEW SECTION */
 .wrapper.style6 {
 	background-color: #9c5f62;
+	margin: 10px;
 	
 }
 .wrapper.style7 {
@@ -4005,7 +4013,7 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #page-wrapper {
-		background: none;
+		background-color: white;
 	}
 
 	body.is-mobile.landing #banner,
