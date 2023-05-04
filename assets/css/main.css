@@ -3003,6 +3003,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
+			
 			background-color: #794A4C;
 			margin: 10px;
 			border-radius: 3px;
@@ -3174,7 +3175,8 @@ input, select, textarea {
 
 		.wrapper.style5 {
 			background-color: #ffffff;
-			color: #231a29;
+			margin: 10px;
+			border-radius: 3px;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
@@ -3912,6 +3914,8 @@ input, select, textarea {
 
 	body.is-mobile #main > header {
 		background-attachment: scroll;
+		background-attachment: fixed;
+
 	}
 /* REVIEW SECTION */
 .wrapper.style6 {
