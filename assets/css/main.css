@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2112,13 +2114,13 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 2em 2em 0;
+			margin: 0 1em 1em 0;
 			top: 0.25em;
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 2em 2em;
+			margin: 0 0 1em 1em;
 			top: 0.25em;
 		}
 
@@ -2128,6 +2130,8 @@ input, select, textarea {
 
 			.image.left img, .image.right img {
 				width: 100%;
+				
+				
 			}
 
 		.image.fit {
@@ -2142,6 +2146,7 @@ input, select, textarea {
 
 /* List */
 
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
@@ -2153,10 +2158,13 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		
+
 	}
+	
 
 		ul li {
 			padding-left: 0.5em;
@@ -2676,6 +2684,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		
 	}
 
 		.spotlight .image {
@@ -2684,13 +2693,14 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 30%;
 		}
 
 			.spotlight .image img {
 				border-radius: 3px;
 				box-shadow: rgb(163, 106, 106) 0px 0px 10px;
 				width: 100%;
+				
 			}
 
 		.spotlight .content {
@@ -2712,7 +2722,7 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgb(112,68,70);
 			border-radius: 3px 3px 0 0;
 			padding: 10px 10px;
 			
@@ -2720,13 +2730,14 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgb(103,63,65);
 			padding: 10px 10px;
+			margin: 10px 0 10px 0;
 			
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgb(94,57,59);
 			border-radius: 0 0 3px 3px;
 			padding: 10px 10px;
 			
@@ -2833,15 +2844,60 @@ input, select, textarea {
 		.wrapper.alt {
 			padding: 0;
 		}
+
+.wrapper.style8 {
+	background-color: rgba(121,74,76, .9);
+	border-radius: 3px;
+	color: #c8ece9;
+	margin: 10px;
+	padding: 80px 0 0 0;
+
+}
+
+.wrapper.style9 {
+	background-color: #79484b;
+	border-radius: 3px;
+	margin: 10px;
+	
+	
+
+}
+/* slider */
+.slider {
+	display: inline-block;
+	text-align: center;
+}
+
+
+.wrapper > .slider {
+	
+	margin: 0 auto;
+}
+
+	@media screen and (max-width: 1280px) {
+
+		.wrapper > .slider {
+			width: 90%;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.wrapper > .slider {
+			width: 100%;
+		}
+
+	}
+/* slider */
+
 /* temp */
-		
-		
-		
-		
+
+
 /* temp */
 
 		.wrapper.style1 {
-			background-color: #794A4C;
+			background-color: rgba(121,74,76,.9);
 			border-radius: 3px;
 			color: #c8ece9;
 			margin: 10px;
@@ -3004,7 +3060,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			
-			background-color: #794A4C;
+			background-color: rgba(121,74,76,0);
 			margin: 10px;
 			border-radius: 3px;
 		}
@@ -3783,6 +3839,9 @@ input, select, textarea {
 		opacity: 1;
 	}
 
+
+
+
 /* CTA */
 
 	#cta .inner {
@@ -3917,6 +3976,10 @@ input, select, textarea {
 		background-attachment: fixed;
 
 	}
+
+
+
+
 /* REVIEW SECTION */
 .wrapper.style6 {
 	background-color: #79484b;
